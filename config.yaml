@@ -1,0 +1,163 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Lorem Screen Fetcher
+theme: hugo-fresh
+googleAnalytics: #Put in your tracking code without quotes like this: UA-XXXXXX...
+#Disables warningss
+disableKinds:
+ -taxonomy
+ -taxonomyTerm
+
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/dashlane.svg
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Capture. Share.
+    # Hero subtitle (optional)
+    subtitle: Why type when you can send videos or screenshots
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/screenshot-maker.png
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Features
+    url: /
+  - title: Pricing
+    url: /
+  - title: Support
+    sublinks:
+    - title: Changelog
+      url: /
+    - title: Manual
+      url: /
+    - title: FAQ
+      url: /
+  - title: Blog
+    url: /
+  - title: Contact us
+    url: /
+  - title: ✡ Try for free ✡
+    url: /
+    button: true
+  section1:
+    title: Lorem Capture for your Browser & Desktop
+    subtitle: Trivial things with trivial ease
+    tiles:
+    - title: Record and Annotate
+      icon: mouse-globe
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: /
+      buttonText: Free trial
+    - title: Capture Web Pages
+      icon: laptop-cloud
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: /
+      buttonText: Get started
+    - title: Edit and Share
+      icon: plug-cloud
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: /
+      buttonText: Get started
+  section2:
+    title: Yet another Lorem Capture software
+    subtitle: Lorem ipsum dolor
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu
+    clients:
+    - name: Marfa Elianorovna
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: Savva Moiseevich
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Shirli Amihaevich
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: dashlane.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/#
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/#
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
